@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.3;
+}
+
+body {
+    font-family: Optima, Calibri, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    clear: both;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+    
+.header {
+    background: url(Pictures/images.jpg);
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
+    padding-bottom: 1em;
+    width: 100vw;
+}
+
+.header-image {
+    float: right;
+    width: 25%;
+    margin-top: 7em;
+    margin-right:25%;
+}
+
+.header-info {
+    float: left;
+    width: 25%;
+    margin-top: 4em;
+    margin-left: 25%;
+    text-align: center;
+    color: Orange;
+    background-color: black;
+    padding-bottom: 1em;
+}
+
+.title {
+    margin: .25em 0;
+    font-size: 3em;    
+}
+
+.subtitle {
+    margin: .5em 0 1.5em;
+    font-size: 1.25em;    
+}
+
+.intro {
+    margin: .5em 0 1.5em;
+    font-size: 1.25em;    
+}
+
+.button {
+    max-height: 2.5em;
+    padding: .5em 2em;
+    font-family: inherit;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: white;
+    background-color: Orange;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: Tan;
+    color: Red;
+}
+
+.table {
+  display: table;
+  width: 100%;
+  height: 10%;
+}
+
+.description {
+    width: 50%;
+    padding: 1em 1em;
+    font-size: 1.25em;
+    background-color: orange;
+    display: table-cell;
+    
+}
+
+.description-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.reviews {
+    width: 50%;
+    padding: 1em 1em;
+    font-size: 1.25em;
+    background-color: black;
+    display: table-cell;
+}
+
+.reviews-text {
+    color: orange;
+    width: 75%;
+}
+
+.review {
+    margin-bottom: .75em;
+}
+
+.product-versions-title {
+    padding: 1em 0;
+    color: Red;
+    background-color: Tan;
+    font-size: 2em;
+    text-align: center;
+}
+
+.product-versions {
+    padding: 1em 0;
+    background-color: orange;
+}
+
+.product-version {
+    float: left;
+    width: 33.33%;
+    border: 1px solid gray;
+    text-align: center;
+    background-color: white;
+}
+
+.version-item {
+    background-color: Black;
+    color: Orange;  
+    border-bottom: 1px solid gray;
+    width: 100%;
+    padding: .75em 0;
+    font-size: 1.5em;
+}
+
+.version-title {
+    background-color: Black;
+    color: Orange;
+    padding: .75em 0;
+    font-size: 1.5em;
+}
+
+.version-price {
+    padding: .75em 0;
+    font-size: 2em;
+    color: Black;
+    background-color: Orange;
+}
+
+.warning {
+    text-align: center;
+    background-color: lightgray;
+    font-size: 1em;
+}
+
+.footer {
+    padding: 1em 0;
+    font-variant: small-caps;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.copyright {
+    font-style: italic;
+    font-size: 1em;
+}
+  
+  
+  
