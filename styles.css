@@ -1,0 +1,91 @@
+
+header {
+	font-family: Snell Roundhand, cursive;
+	font-size: 400%;
+	color: green;
+	line-height: 2;
+	text-align: center;
+	text-decoration-line: overline underline;
+  	text-decoration-color: red;
+ 	text-decoration-style: solid;
+	text-decoration-thickness: auto;
+	
+
+}
+
+
+body {
+	height: auto;
+	margin: 2%;
+	border: 1px solid black;
+	background-image: url("snow.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div1 {
+	float: left;
+	display: block;
+	height: auto;
+	width: 25%;
+}
+
+div2 {
+	float: right;
+	display: inline-block;
+	height: auto;
+	width: 25%;
+}
+
+#image {
+	display: inline-block;
+	line-height:3;
+	width: 45%;
+    height: 80%;
+	border:5px solid black;
+	background-position: center;
+    background-image: url('');
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    text-align: center;
+    background-size: cover;
+	margin-top:10%;
+    margin-bottom:10%;
+	margin-left: 2.5%;
+    font-size: 200%;
+	color: yellow;
+	font-weight: bold;
+}
+.preview {
+	
+	display: block;
+	width:30%;
+	height:15%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 18.3%;
+	border: 10px solid black;
+}
+img {
+		width:95%;
+	vertical-align: bottom;
+}
+
+
+div3 {
+	display: block;
+	float: right;
+	width: 100%;
+	height: 8%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 200%;
+	color: yellow;
+  	
+}
+
+.next {
+	color: yellow;
+}
+
